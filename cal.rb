@@ -50,4 +50,4 @@ puts title.center(line_width)
 
 end
 
-Calculator.new.calulator
+Calculator.new.calculator
