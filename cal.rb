@@ -17,13 +17,14 @@ def calculator
 end
 
 def calculate(x, y, operation)
-  if operation == "*"
+  case operation
+  when "*"
     multiplication(x, y)
-  elsif operation == "+"
+  when "+"
      addition(x, y)
-  elsif operation == "-"
+  when "-"
     subtraction(x, y)
-  elsif operation == "/"
+  when "/"
     division(x, y)
   else puts "Looks like somethings gone wrong, let's do that again"
     calculator
